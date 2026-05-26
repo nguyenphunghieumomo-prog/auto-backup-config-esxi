@@ -1,7 +1,6 @@
 # auto-backup-config-esxi
 The ESXI Config Backup Utility is a PowerShell script that makes it easy to take config backups of individual ESXI hosts or all of your ESXI hosts by connection to a vCenter appliance. The script also makes it very easy to schedule the backups to run automatically by leveraging Windows Task Scheduler. The script uses VMware PowerCLI to connect to the resource, initiate a backup, and store it on your local machine. The script also includes retention settings in the event you only want to keep a certain number of them on hand.
 
-2022-07-17_19-05-53
 
 Features
 Automate Scheduling of Script
@@ -29,6 +28,7 @@ Command Line Flags
 
 -RunConfig - Use to take backups using your stored credentials and config file.
 -Run - Use to take backups without using your config file (you will be prompted for hostname/credentials).
+
 First Step
 Download the file, be sure to open up properties on the zipped folder and unblock it. 2022-07-17_18-40-21
 
