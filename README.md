@@ -21,12 +21,17 @@ Instructions
 The command line flags below can be used to enable the script and/or take backups. Using -Run will bypass any config and give you a "Run Once" experience to take a backup. If you need to edit your configuration, you'll need to run -Disable then -SetConfig then -Enable.
 
 Command Line Flags
+
 -SetConfig - Use to set configuration options (IP/Hostname, Backup Schedule, Retention)
+
 -SetCreds - Use to set Host/vCenter credentials.
+
 -Enable - Use to enable backup schedule.
+
 -Disable - Use to disable backup schedule.
 
 -RunConfig - Use to take backups using your stored credentials and config file.
+
 -Run - Use to take backups without using your config file (you will be prompted for hostname/credentials).
 
 First Step
